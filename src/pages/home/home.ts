@@ -13,12 +13,12 @@ export class HomePage {
 
   ionViewWillEnter() {
     this.menu.swipeEnable(false);
-    }
+  }
 
-    ionViewDidLeave() {
+  ionViewDidLeave() {
     this.menu.swipeEnable(true);
-    }
-    
+  }
+
   login(){
     this.navCtrl.setRoot('CategoriasPage');
   }
